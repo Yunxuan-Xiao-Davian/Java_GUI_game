@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="7.0" transformSequenceNumber="3">
+  <directoryPresets config="C:/Users/ASUS/Desktop/Shoot_lib" />
+  <application name="Shoot" distributionSourceDir="C:/Users/ASUS/Desktop/Shoot_lib" />
+  <executable name="Shoot" wrapperType="embed" executableDir="." executableMode="gui" />
+  <java mainClass="CMain" preferredVM="client" minVersion="1.5" maxVersion="1.7">
+    <searchSequence>
+      <directory location="./jre" />
+    </searchSequence>
+    <classPath>
+      <archive location="C:/Users/ASUS/Desktop/Shoot_lib/Shoot21.jar" failOnError="false" />
+    </classPath>
+  </java>
+</exe4j>
